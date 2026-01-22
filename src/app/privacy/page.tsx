@@ -177,9 +177,7 @@ export default function PrivacyPage() {
                                 If you have any questions about this Privacy Policy or our data practices, please contact us:
                             </p>
                             <ul className="list-disc pl-6">
-                                <li>Email: privacy@thegreencandle.com</li>
-                                <li>Address: [Your Business Address]</li>
-                                <li>Phone: [Your Contact Number]</li>
+                                <li>Email: thegreencandle30@gmail.com</li>
                             </ul>
                         </section>
                     </div>

@@ -25,6 +25,7 @@ export function Footer() {
                         <ul className="space-y-2 text-sm text-neutral-500 dark:text-neutral-400">
                             <li><Link href="/privacy">Privacy Policy</Link></li>
                             <li><Link href="/terms">Terms & Conditions</Link></li>
+                            <li><Link href="/refund-policy">Refund Policy</Link></li>
                         </ul>
                     </div>
                 </div>

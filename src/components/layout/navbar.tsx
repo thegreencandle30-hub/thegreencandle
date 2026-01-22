@@ -20,12 +20,6 @@ export function Navbar() {
                     <Link href="/#about" className="text-sm font-medium text-foreground dark:text-white hover:text-primary transition-colors">
                         About
                     </Link>
-                    <Link href="/terms" className="text-sm font-medium text-foreground dark:text-white hover:text-primary transition-colors">
-                        Terms
-                    </Link>
-                    <Link href="/privacy" className="text-sm font-medium text-foreground dark:text-white hover:text-primary transition-colors">
-                        Privacy
-                    </Link>
                 </div>
                 <Link href="/#cta">
                     <Button size="sm" className="rounded-full px-4 py-2 bg-green-600 text-white hover:bg-green-500 dark:bg-green-600 dark:text-white dark:hover:bg-green-500 dark:hover:text-white">

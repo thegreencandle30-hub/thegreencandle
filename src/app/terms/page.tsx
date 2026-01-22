@@ -220,9 +220,7 @@ export default function TermsPage() {
                                 If you have any questions about these Terms and Conditions, please contact us:
                             </p>
                             <ul className="list-disc pl-6">
-                                <li>Email: legal@thegreencandle.com</li>
-                                <li>Address: [Your Business Address]</li>
-                                <li>Phone: [Your Contact Number]</li>
+                                <li>Email: thegreencandle30@gmail.com</li>
                             </ul>
                         </section>
                     </div>
