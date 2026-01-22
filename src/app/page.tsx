@@ -112,7 +112,7 @@ export default function Home() {
 
 function FeatureCard({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) {
   return (
-    <div className="group relative overflow-hidden rounded-2xl border border-neutral-200 bg-white p-8 transition-all hover:shadow-xl dark:border-neutral-800 dark:bg-neutral-900">
+    <div className="group relative overflow-hidden rounded-2xl border border-neutral-200 bg-white p-8 transition-all hover:shadow-xl dark:border-neutral-700 dark:bg-neutral-900">
       <div className="mb-4">{icon}</div>
       <h3 className="mb-2 text-xl font-bold text-neutral-900 dark:text-white">{title}</h3>
       <p className="text-sm text-neutral-600 dark:text-neutral-400">{description}</p>

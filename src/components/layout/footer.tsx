@@ -16,8 +16,12 @@ export function Footer() {
                     <div>
                         <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider">Product</h3>
                         <ul className="space-y-2 text-sm text-neutral-500 dark:text-neutral-400">
-                            <li><Link href="#features">Features</Link></li>
-                            <li><Link href="#">Pricing</Link></li>
+                            <li>
+                                <Link href="/#features" scroll={true}>Features</Link>
+                            </li>
+                            {/* <li>
+                                <Link href="/#pricing" scroll={true}>Pricing</Link>
+                            </li> */}
                         </ul>
                     </div>
                     <div>
