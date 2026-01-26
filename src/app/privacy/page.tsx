@@ -46,14 +46,14 @@ export default function PrivacyPage() {
                                 <li>Cookies and similar tracking technologies</li>
                             </ul>
 
-                            <h3 className="text-xl font-semibold text-black dark:text-white">2.3 Trading and Financial Data</h3>
+                            <h3 className="text-xl font-semibold text-black dark:text-white">2.3 Market Learning Data</h3>
                             <p>
-                                For our trading services, we may collect:
+                                For our educational services, we may collect:
                             </p>
                             <ul className="list-disc pl-6">
-                                <li>Trading preferences and strategies</li>
-                                <li>Portfolio information and performance data</li>
-                                <li>Transaction history (anonymized for analytics)</li>
+                                <li>Learning preferences and interests</li>
+                                <li>Watchlist information and market interests</li>
+                                <li>Usage history (anonymized for analytics)</li>
                             </ul>
                         </section>
 
@@ -63,7 +63,7 @@ export default function PrivacyPage() {
                                 We use the information we collect for the following purposes:
                             </p>
                             <ul className="list-disc pl-6">
-                                <li>To provide and maintain our trading services</li>
+                                <li>To provide and maintain our educational services</li>
                                 <li>To process transactions and manage subscriptions</li>
                                 <li>To communicate with you about your account and our services</li>
                                 <li>To improve our platform and develop new features</li>

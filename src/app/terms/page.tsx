@@ -24,14 +24,14 @@ export default function TermsPage() {
                         <section>
                             <h2 className="text-2xl font-bold text-black dark:text-white">2. Description of Service</h2>
                             <p>
-                                The Green Candle is a trading platform that provides:
+                                The Green Candle is an educational platform that provides:
                             </p>
                             <ul className="list-disc pl-6">
-                                <li>Trading tools and analytics</li>
-                                <li>Educational content and market insights</li>
-                                <li>Portfolio management features</li>
+                                <li>Market insights and educational content</li>
+                                <li>Real-time market data and analytics</li>
+                                <li>Learning resources about share markets</li>
                                 <li>Community forums and discussion boards</li>
-                                <li>Subscription-based premium services</li>
+                                <li>Subscription-based premium educational services</li>
                             </ul>
                             <p>
                                 Our services are provided &quot;as is&quot; and we reserve the right to modify, suspend, or discontinue any part of the Service at any time.
@@ -57,19 +57,19 @@ export default function TermsPage() {
                         </section>
 
                         <section>
-                            <h2 className="text-2xl font-bold text-black dark:text-white">4. Trading Risks and Disclaimers</h2>
+                            <h2 className="text-2xl font-bold text-black dark:text-white">4. Educational Disclaimers and Risk Awareness</h2>
                             <p>
-                                <strong>IMPORTANT:</strong> Trading involves substantial risk of loss and is not suitable for all investors. The value of investments can go down as well as up, and you may lose money.
+                                <strong>IMPORTANT:</strong> Market investments involve substantial risk of loss. The information we provide is for educational purposes only and should not be construed as investment advice or recommendations.
                             </p>
                             <ul className="list-disc pl-6">
                                 <li>Past performance does not guarantee future results</li>
-                                <li>The Green Candle does not provide personalized investment advice</li>
-                                <li>You are solely responsible for your trading decisions</li>
+                                <li>The Green Candle provides educational content, not personalized investment advice</li>
+                                <li>You are solely responsible for your investment decisions</li>
                                 <li>We do not guarantee profits or protect against losses</li>
                                 <li>Market conditions can change rapidly and unexpectedly</li>
                             </ul>
                             <p>
-                                You should carefully consider your financial situation, investment objectives, and risk tolerance before engaging in trading activities.
+                                You should carefully consider your financial situation, investment objectives, and risk tolerance before making any investment decisions. We recommend consulting with a qualified financial advisor.
                             </p>
                         </section>
 
@@ -164,13 +164,14 @@ export default function TermsPage() {
                         <section>
                             <h2 className="text-2xl font-bold text-black dark:text-white">11. Disclaimer</h2>
                             <p>
-                                The information on this Service is provided on an &quot;as is&quot; basis. To the fullest extent permitted by law, The Green Candle:
+                                The information on this Service is provided on an &quot;as is&quot; basis for educational purposes. To the fullest extent permitted by law, The Green Candle:
                             </p>
                             <ul className="list-disc pl-6">
                                 <li>Excludes all representations and warranties relating to this Service and its contents</li>
                                 <li>Does not guarantee the accuracy, completeness, or timeliness of information</li>
                                 <li>Is not responsible for decisions made based on information provided</li>
-                                <li>Does not endorse or recommend any trading strategies or investments</li>
+                                <li>Does not sell, suggest, or recommend any specific stocks or investment strategies</li>
+                                <li>Provides educational content only, not investment advice or recommendations</li>
                             </ul>
                         </section>
 

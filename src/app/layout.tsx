@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Green Candle | Modern Trading Insights",
-  description: "Empowering traders with real-time insights and advanced analytics for the modern market.",
+  title: "The Green Candle | Market Learning & Insights",
+  description: "Empowering learners with market knowledge and educational insights about the share market.",
 };
 
 export default function RootLayout({

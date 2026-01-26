@@ -2,9 +2,11 @@ import { BackgroundPaths } from "@/components/ui/background-paths";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { Button } from "@/components/ui/button";
+import { ContactCard } from "@/components/ui/contact-card";
+import { ContactForm } from "@/components/ui/contact-form";
 import Link from "next/link";
 import Image from "next/image";
-import { BarChart3, Shield, Zap, TrendingUp, Check } from "lucide-react";
+import { BarChart3, Shield, Zap, TrendingUp, Check, MailIcon, PhoneIcon } from "lucide-react";
 
 export default function Home() {
   return (
@@ -19,10 +21,10 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="mb-16 text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-black dark:text-white">
-              Powerful Features for Traders
+              Powerful Features for Market Learners
             </h2>
             <p className="mt-4 text-neutral-600 dark:text-neutral-400 md:text-lg">
-              Everything you need to stay ahead in the fast-paced world of trading.
+              Everything you need to understand and learn about the share market.
             </p>
           </div>
 
@@ -34,32 +36,62 @@ export default function Home() {
             />
             <FeatureCard
               icon={<Shield className="h-10 w-10 text-black dark:text-white" />}
-              title="Secure Trading"
-              description="Your data and assets are protected by industry-leading security protocols."
+              title="Secure Platform"
+              description="Your data and information are protected by industry-leading security protocols."
             />
             <FeatureCard
               icon={<Zap className="h-10 w-10 text-black dark:text-white" />}
-              title="Fast Execution"
-              description="Execute trades in milliseconds with our optimized infrastructure."
+              title="Real-Time Updates"
+              description="Receive market insights instantly with our optimized infrastructure."
             />
             <FeatureCard
               icon={<TrendingUp className="h-10 w-10 text-black dark:text-white" />}
               title="Advanced Insights"
-              description="Leverage AI-driven insights to make better informed trading decisions."
+              description="Leverage AI-driven insights for your market learning journey."
             />
           </div>
         </div>
       </section>
 
+      {/* About Section */}
+      <section id="about" className="py-24 md:py-32">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="grid gap-12 lg:grid-cols-2 items-center">
+            <div>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl mb-6 text-neutral-900 dark:text-white">
+                Our Mission
+              </h2>
+              <p className="text-neutral-600 dark:text-neutral-400 text-lg mb-6">
+                At The Green Candle, we believe that everyone interested in the share market deserves access to comprehensive educational resources and market insights. Our platform is built to provide knowledge about markets, with a focus on speed, accuracy, and ease of use.
+              </p>
+              <p className="text-neutral-600 dark:text-neutral-400 text-lg">
+                Whether you&apos;re just starting out or you&apos;re a seasoned investor, we provide the data and insights you need to understand the markets with confidence.
+              </p>
+            </div>
+            <div className="relative aspect-video rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 shadow-2xl group">
+              <Image
+                src="/mission.png"
+                alt="Our Mission - Market Learning Platform"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <p className="text-white text-sm font-medium">Comprehensive tools for in-depth market understanding.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
-      <section id="pricing" className="py-24 md:py-32">
+      <section id="pricing" className="py-24 md:py-32 bg-neutral-50 dark:bg-neutral-900/50">
         <div className="container mx-auto px-4 md:px-6">
           <div className="mb-16 text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-black dark:text-white">
               Subscription Plans
             </h2>
             <p className="mt-4 text-neutral-600 dark:text-neutral-400 md:text-lg">
-              Unlock professional trading signals and targets tailored to your goals.
+              Access comprehensive market insights and educational content tailored to your learning goals.
             </p>
           </div>
 
@@ -68,10 +100,10 @@ export default function Home() {
               title="Regular"
               price="₹990"
               period="/ day"
-              description="Reliable signals with essential targets for consistent trading."
+              description="Essential market insights with key data points for steady learning."
               features={[
                 "Entry, Stop Loss & 2 Target Prices",
-                "Daily Market Calls",
+                "Daily Market Insights",
                 "Weekly Plan: ₹4,000"
               ]}
               message="Hi, I am interested in buying the Regular subscription plan."
@@ -81,10 +113,10 @@ export default function Home() {
               price="₹2,000"
               period="/ day"
               highlighted={true}
-              description="Maximum precision with all targets for serious market players."
+              description="Comprehensive insights with all data points for dedicated market enthusiasts."
               features={[
                 "Entry, Stop Loss & All 6 Target Prices",
-                "Daily Market Calls",
+                "Daily Market Insights",
                 "Priority Support Access",
                 "Weekly Plan: ₹9,000"
               ]}
@@ -107,32 +139,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="py-24 md:py-32 bg-neutral-50 dark:bg-neutral-900/50">
+      {/* Contact Section */}
+      <section id="contact" className="py-24 md:py-32">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid gap-12 lg:grid-cols-2 items-center">
-            <div>
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl mb-6 text-neutral-900 dark:text-white">
-                Our Mission
-              </h2>
-              <p className="text-neutral-600 dark:text-neutral-400 text-lg mb-6">
-                At The Green Candle, we believe that every trader deserves access to professional-grade tools and insights. Our platform is built by traders, for traders, with a focus on speed, accuracy, and ease of use.
-              </p>
-              <p className="text-neutral-600 dark:text-neutral-400 text-lg">
-                Whether you&apos;re just starting out or you&apos;re a seasoned professional, we provide the data and analytics you need to navigate the markets with confidence.
-              </p>
-            </div>
-            <div className="relative aspect-video rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 shadow-2xl group">
-              <Image
-                src="/mission.png"
-                alt="Our Mission - Advanced Trading Workspace"
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                <p className="text-white text-sm font-medium">Professional instruments for precision trading.</p>
-              </div>
-            </div>
+          <div className="mx-auto max-w-5xl">
+            <ContactCard
+              title="Get in Touch"
+              description="Have questions about our market insights or need help getting started? Fill out the form and we'll get back to you soon."
+              className="rounded-2xl bg-white dark:bg-neutral-900 border-neutral-200 dark:border-neutral-700"
+              contactInfo={[
+                {
+                  icon: PhoneIcon,
+                  label: 'Phone',
+                  value: '+91 9713101521',
+                  href: 'tel:+919713101521',
+                },
+                {
+                  icon: MailIcon,
+                  label: 'Email',
+                  value: 'thegreencandle30@gmail.com',
+                  href: 'mailto:thegreencandle30@gmail.com',
+                }
+              ]}
+            >
+              <ContactForm />
+            </ContactCard>
           </div>
         </div>
       </section>
@@ -144,7 +175,7 @@ export default function Home() {
             Ready to start your journey?
           </h2>
           <p className="mx-auto mt-4 max-w-150 opacity-80 md:text-lg">
-            Join thousands of traders who are already using The Green Candle to master the markets.
+            Join thousands of learners using The Green Candle to understand the share market.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link href="https://wa.me/919713101521?text=Hi" target="_blank" rel="noopener noreferrer">
@@ -223,4 +254,5 @@ function PricingCard({
     </div>
   );
 }
+
 
