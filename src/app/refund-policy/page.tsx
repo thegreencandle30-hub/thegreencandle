@@ -55,7 +55,7 @@ export default function RefundPolicyPage() {
                             <ul className="list-disc pl-6">
                                 <li>Service unavailability or downtime</li>
                                 <li>Technical issues or bugs</li>
-                                <li>Changes in market conditions</li>
+                                <li>Changes in systemic conditions</li>
                                 <li>Personal circumstances or financial difficulties</li>
                                 <li>Dissatisfaction with service performance</li>
                                 <li>Failure to meet personal expectations</li>

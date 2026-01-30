@@ -27,9 +27,9 @@ export default function TermsPage() {
                                 The Green Candle is an educational platform that provides:
                             </p>
                             <ul className="list-disc pl-6">
-                                <li>Market insights and educational content</li>
-                                <li>Real-time market data and analytics</li>
-                                <li>Learning resources about share markets</li>
+                                <li>Analytical insights and educational content</li>
+                                <li>Real-time technical data and analytics</li>
+                                <li>Learning resources about financial systems</li>
                                 <li>Community forums and discussion boards</li>
                                 <li>Subscription-based premium educational services</li>
                             </ul>
@@ -59,17 +59,17 @@ export default function TermsPage() {
                         <section>
                             <h2 className="text-2xl font-bold text-black dark:text-white">4. Educational Disclaimers and Risk Awareness</h2>
                             <p>
-                                <strong>IMPORTANT:</strong> Market investments involve substantial risk of loss. The information we provide is for educational purposes only and should not be construed as investment advice or recommendations.
+                                <strong>IMPORTANT:</strong> Engaging with financial systems involves substantial risk of loss. The information we provide is for educational purposes only and should not be construed as professional guidance or recommendations.
                             </p>
                             <ul className="list-disc pl-6">
-                                <li>Past performance does not guarantee future results</li>
-                                <li>The Green Candle provides educational content, not personalized investment advice</li>
-                                <li>You are solely responsible for your investment decisions</li>
-                                <li>We do not guarantee profits or protect against losses</li>
-                                <li>Market conditions can change rapidly and unexpectedly</li>
+                                <li>Past results do not guarantee future performance</li>
+                                <li>The Green Candle provides educational content, not personalized financial guidance</li>
+                                <li>You are solely responsible for your decisions</li>
+                                <li>We do not guarantee outcomes or protect against losses</li>
+                                <li>Systemic conditions can change rapidly and unexpectedly</li>
                             </ul>
                             <p>
-                                You should carefully consider your financial situation, investment objectives, and risk tolerance before making any investment decisions. We recommend consulting with a qualified financial advisor.
+                                You should carefully consider your financial situation, objectives, and risk tolerance before making any decisions. We recommend consulting with a qualified professional.
                             </p>
                         </section>
 
@@ -170,8 +170,8 @@ export default function TermsPage() {
                                 <li>Excludes all representations and warranties relating to this Service and its contents</li>
                                 <li>Does not guarantee the accuracy, completeness, or timeliness of information</li>
                                 <li>Is not responsible for decisions made based on information provided</li>
-                                <li>Does not sell, suggest, or recommend any specific stocks or investment strategies</li>
-                                <li>Provides educational content only, not investment advice or recommendations</li>
+                                <li>Does not sell, suggest, or recommend any specific assets or analytical frameworks</li>
+                                <li>Provides educational content only, not professional guidance or recommendations</li>
                             </ul>
                         </section>
 

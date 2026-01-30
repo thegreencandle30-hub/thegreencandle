@@ -21,18 +21,18 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="mb-16 text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl text-black dark:text-white">
-              Powerful Features for Market Learners
+              Powerful Features for Analytical Learners
             </h2>
             <p className="mt-4 text-neutral-600 dark:text-neutral-400 md:text-lg">
-              Everything you need to understand and learn about the share market.
+              Everything you need to understand and learn about financial analysis.
             </p>
           </div>
 
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             <FeatureCard
               icon={<BarChart3 className="h-10 w-10 text-black dark:text-white" />}
-              title="Strategy Analysis"
-              description="Learn to deconstruct market setups and understand the technical patterns behind movements."
+              title="Technical Analysis"
+              description="Learn to deconstruct complex setups and understand the technical patterns behind movements."
             />
             <FeatureCard
               icon={<Shield className="h-10 w-10 text-black dark:text-white" />}
@@ -42,12 +42,12 @@ export default function Home() {
             <FeatureCard
               icon={<Zap className="h-10 w-10 text-black dark:text-white" />}
               title="Daily Breakdowns"
-              description="Receive daily educational observations on market trends and structural shifts."
+              description="Receive daily educational observations on value trends and structural shifts."
             />
             <FeatureCard
               icon={<TrendingUp className="h-10 w-10 text-black dark:text-white" />}
               title="Advanced Analysis"
-              description="Leverage deep technical insights to enhance your comprehensive market learning journey."
+              description="Leverage deep technical insights to enhance your comprehensive analytical learning journey."
             />
           </div>
         </div>
@@ -59,24 +59,24 @@ export default function Home() {
           <div className="grid gap-12 lg:grid-cols-2 items-center">
             <div>
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl mb-6 text-neutral-900 dark:text-white">
-                Our Mission
+                Educational Mission
               </h2>
               <p className="text-neutral-600 dark:text-neutral-400 text-lg mb-6">
-                At The Green Candle, our mission is to simplify the complexities of the market through structured educational resources. We provide learners with a dedicated framework to understand market dynamics, technical patterns, and structural analysis, fostering deeper technical literacy in global markets.
+                At The Green Candle, our mission is to provide exclusively educational content focused on technical analysis and data interpretation. We specialize in developing structured learning modules that simplify complex value-based information, enabling learners to master pattern recognition and technical literacy through purely educational resources.
               </p>
               <p className="text-neutral-600 dark:text-neutral-400 text-lg">
-                We believe that knowledge is the strongest foundation. Our platform is dedicated to guiding market enthusiasts through their learning journey, providing the analytical case studies and theoretical insights needed to understand market behavior with clarity.
+                Our curriculum is built on foundational principles of trend identification and logical frameworks. We provide purely educational materials, including theoretical insights and practical case studies, designed to enhance the analytical skills required to understand complex data sequences.
               </p>
             </div>
             <div className="relative aspect-video rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800 shadow-2xl group">
               <Image
                 src="/mission.png"
-                alt="Our Mission - Market Learning Platform"
+                alt="Educational Mission - Analytical Learning Platform"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                <p className="text-white text-sm font-medium">Comprehensive tools for in-depth market understanding.</p>
+                <p className="text-white text-sm font-medium">Comprehensive resources for in-depth analytical learning.</p>
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function Home() {
               Subscription Plans
             </h2>
             <p className="mt-4 text-neutral-600 dark:text-neutral-400 md:text-lg">
-              Access comprehensive market insights and educational content tailored to your learning goals.
+              Access comprehensive analytical insights and educational content tailored to your learning goals.
             </p>
           </div>
 
@@ -100,7 +100,7 @@ export default function Home() {
               title="Regular"
               price="₹990"
               period="/ day"
-              description="Foundational market study cases and key data points for steady learning."
+              description="Foundational analytical study cases and key data points for steady learning."
               features={[
                 // "Study Case: Entry & Exit Analysis",
                 // "Daily Market Learning Insights",
@@ -113,7 +113,7 @@ export default function Home() {
               price="₹2,000"
               period="/ day"
               highlighted={true}
-              description="Extended analysis and advanced strategies for dedicated market enthusiasts."
+              description="Extended analysis and advanced frameworks for dedicated analytical enthusiasts."
               features={[
                 // "Advanced Strategy: Multi-Level Analysis",
                 // "Daily Market Learning Insights",
@@ -126,7 +126,7 @@ export default function Home() {
               title="International"
               price="₹11,000"
               period="/ day"
-              description="Global market case studies and advanced analysis for our international learning community."
+              description="Global analytical case studies and advanced analysis for our international learning community."
               features={[
                 // "Global Market Learning Modules",
                 // "Advanced Analysis Models",
@@ -145,7 +145,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl">
             <ContactCard
               title="Get in Touch"
-              description="Have questions about our market insights or need help getting started? Fill out the form and we'll get back to you soon."
+              description="Have questions about our analytical insights or need help getting started? Fill out the form and we'll get back to you soon."
               className="rounded-2xl bg-white dark:bg-neutral-900 border-neutral-200 dark:border-neutral-700"
               contactInfo={[
                 {
@@ -175,7 +175,7 @@ export default function Home() {
             Ready to start your journey?
           </h2>
           <p className="mx-auto mt-4 max-w-150 opacity-80 md:text-lg">
-            Join thousands of learners using The Green Candle to understand the share market.
+            Join thousands of learners using The Green Candle to understand financial data.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link href="https://wa.me/919713101521?text=Hi" target="_blank" rel="noopener noreferrer">

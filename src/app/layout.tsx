@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Green Candle | Market Learning & Insights",
-  description: "Empowering learners with market knowledge and educational insights about the share market.",
+  title: "The Green Candle | Analytical Learning & Insights",
+  description: "Empowering learners with technical knowledge and educational insights about financial systems.",
 };
 
 export default function RootLayout({

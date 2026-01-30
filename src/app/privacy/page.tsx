@@ -46,13 +46,13 @@ export default function PrivacyPage() {
                                 <li>Cookies and similar tracking technologies</li>
                             </ul>
 
-                            <h3 className="text-xl font-semibold text-black dark:text-white">2.3 Market Learning Data</h3>
+                            <h3 className="text-xl font-semibold text-black dark:text-white">2.3 Analytical Learning Data</h3>
                             <p>
                                 For our educational services, we may collect:
                             </p>
                             <ul className="list-disc pl-6">
                                 <li>Learning preferences and interests</li>
-                                <li>Watchlist information and market interests</li>
+                                <li>Focus areas and data interests</li>
                                 <li>Usage history (anonymized for analytics)</li>
                             </ul>
                         </section>
